@@ -10,6 +10,15 @@ My note for ClearGrasp model application.
 3. Then, uses a **global optimization algorithm** which uses surface normals and occlusion boundaries to reconstruct the depth of the transparent objects.
 ### Method Overview
 ![ClearGrasp Method Overview](./images/cleargrasp_method_overview.png)
+
+# System setup
+## System Dependencies
+```bash
+sudo apt install libhdf5-dev hdf5-tools
+sudo apt install libopenexr-dev zlib1g-dev openexr
+sudo apt install xorg-dev  # display widows
+sudo apt install libglfw3-dev
+```
 # Ref
 - Paper : [ClearGrasp: 3D Shape Estimation of Transparent Objects for Manipulation](https://arxiv.org/abs/1910.02550)
 - Github : [Official repository for the ClearGrasp paper](https://github.com/Shreeyak/cleargrasp/tree/master)
